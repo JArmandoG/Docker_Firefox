@@ -4,7 +4,7 @@
 - Generate HASH password with command `mkpasswd -p sha-512 (password)`
 - Create a bashrc profile and drop it in the docker build folder
 
-### Running it (Tested on Ubuntu):
+### Running it (Tested on Ubuntu/Debian):
 
 `xhost +`
 
