@@ -1,3 +1,7 @@
+# Docker sandboxed Firefox Browser
+
+Special docker image that runs Firefox, and binds its GUI via X11 in Linux Hosts
+
 ### This Dockerfile
 
 - By default everything will be ran as root. We create a new user 'user' and then, after updating repositories and installing Firefox, we execute everything as 'user'
