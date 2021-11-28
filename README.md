@@ -10,6 +10,6 @@
 
 `docker run -d --name dockerfox dockered_firefox -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix`
 
-### Firefox Hardening:
-https://github.com/Argandov/hardening/blob/main/browser/guideline.md
+### Firefox Hardening quick reference guide:
+https://github.com/JArmandoG/Firefox-Hardening
 
