@@ -1,0 +1,2 @@
+# With blue prompt
+export PS1="\[\033[38;5;57m\]\u\[$(tput sgr0)\]\[\033[38;5;4m\]@\h\[$(tput sgr0)\]\[\033[38;5;201m\]:\[$(tput sgr0)\]\[\033[38;5;4m\]\w\[$(tput sgr0)\] \[$(tput sgr0)\]\[\033[38;5;4m\]\\$\[$(tput sgr0)\] \[$(tput sgr0)\]"
