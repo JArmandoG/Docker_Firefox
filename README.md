@@ -4,11 +4,15 @@
 - Generate HASH password with command `mkpasswd -p sha-512 (password)`
 - Create a bashrc profile and drop it in the docker build folder
 
-### Running it (Tested on Ubuntu/Debian):
+### Run it (Tested on Ubuntu/Debian):
+
+`git clone https://github.com/JArmandoG/Docker_Firefox.git`
+
+`mv Docker_Firefox/example_bashrc Docker_Firefox/bashrc`
 
 `xhost +`
 
-`docker run -d --name dockerfox dockered_firefox -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix`
+`docker run -d --name dockerfox Docker_Firefox -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix`
 
 ### Firefox Hardening quick reference guide:
 https://github.com/JArmandoG/Firefox-Hardening
